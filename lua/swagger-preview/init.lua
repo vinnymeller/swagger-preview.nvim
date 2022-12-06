@@ -54,7 +54,7 @@ function M.toggle_server()
 end
 
 -- define a command to call the start server function,
-vim.api.nvim_create_user_command("SwaggerPreviewStart", "lua require('swagger-preview').start_server()", {})
+vim.api.nvim_create_user_command("SwaggerPreview", "lua require('swagger-preview').start_server()", {})
 vim.api.nvim_create_user_command("SwaggerPreviewStop", "lua require('swagger-preview').stop_server()", {})
 vim.api.nvim_create_user_command("SwaggerPreviewToggle", "lua require('swagger-preview').toggle_server()", {})
 
