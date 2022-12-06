@@ -39,3 +39,7 @@ require("swagger-preview").setup({
     host = "localhost",
 })
 ```
+
+## Contributing
+
+This plugin does almost nothing so I don't care about style or whatever. If somebody comes across this and you need more customization, make a PR and I'll merge it as long as a) it doesnt break my defaults and b) it isn't trolling 😄 
