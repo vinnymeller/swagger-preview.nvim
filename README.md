@@ -6,7 +6,7 @@ A neovim plugin to live-preview Swagger files.
 
 **Prerequisites**:
 
-This plugin requires [swagger-ui-watcher](https://github.com/moon0326/swagger-ui-watcher) to be installed.
+This plugin requires [swagger-ui-watcher](https://github.com/moon0326/swagger-ui-watcher) to be installed. The default `packer.nvim` configuration will automatically install it globally.
 
 
 ### packer.nvim
@@ -16,9 +16,6 @@ This plugin requires [swagger-ui-watcher](https://github.com/moon0326/swagger-ui
   use {
       "vinnymeller/swagger-preview.nvim",
       run = "npm install -g swagger-ui-watcher",
-      config = function()
-        require("swagger-preview").setup()
-      end
   }
 ```
 
