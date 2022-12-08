@@ -2,6 +2,8 @@
 
 A neovim plugin to live-preview Swagger files.
 
+![example](https://i.imgur.com/LSPMLNs.gif)
+
 ## Installation
 
 **Prerequisites**:
