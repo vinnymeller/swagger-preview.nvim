@@ -15,7 +15,7 @@ This plugin requires [swagger-ui-watcher](https://github.com/moon0326/swagger-ui
 
     return {
       "vinnymeller/swagger-preview.nvim",
-      cmd = { "SwaggerPreview", "SwaggerPreviewStop", "SwaggerStop" },
+      cmd = { "SwaggerPreview", "SwaggerPreviewStop", "SwaggerPreviewToggle" },
       build = "npm i",
       config = true,
     }
