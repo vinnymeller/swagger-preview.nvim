@@ -23,7 +23,7 @@ function M.start_server()
     M.stop_server()
   end
 
-  local cmd = swagger_ui_watcher_path .. " -p " .. M.port .. " -h " .. M.host .. " " .. swagger_path
+  local cmd = swagger_ui_watcher_path .. " -p " .. M.port .. " -h " .. M.host .. " " .. vim.fn.shellescape(swagger_path)
 
   M.server_pid = vim.fn.jobstart(cmd, {
     on_stdout = function(_, data, _)
